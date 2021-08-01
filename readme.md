@@ -40,7 +40,7 @@
 
 - 常量
   ```go
-  const limit = 512 //类型兼容任何数字
+  const limit = 512 //类型兼容任何数字,例如可以直接和time.Duration类型相乘 time.Second * limit 
   const top uint16 = 1421 // 类型 uint16 
 
   ```
